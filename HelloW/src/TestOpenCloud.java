@@ -75,7 +75,7 @@ private static final String[] WORDS = {"art","art","art", "fun", "fun","tokyo","
             panel.add(label);
         }
         frame.add(panel);
-        frame.setSize(800, 600);
+        frame.setSize(1360, 768);
         frame.setVisible(true);
     }
 
