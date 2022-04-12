@@ -69,8 +69,12 @@ private static final String[] WORDS = {"art","art","art", "fun", "fun","tokyo","
                     label.setForeground(Color.BLACK);
                 }
             }
-
-
+            
+            //početnosti
+            String vys = tag.getName()+ " " + tag.getScore();
+            List<String> tab = new ArrayList<String>(Arrays.asList(vys));
+            Arrays.sort(new List[]{tab});
+            System.out.println(tab);
             //output
             panel.add(label);
         }
